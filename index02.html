@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="Parte02.css">
+</head>
+<body>
+    
+    <header>
+       <div class=" header-Content">
+        <h1>Anatomia de uma Página HTML5</h1>
+
+        <h2>Parte 2: Formulàrios e Texto</h2>
+        <nav>
+         <a href="index.html"> 🠐 Voltar para Parte 1</a>
+          </nav>
+       </div>
+    </header>
+
+ <main class="container">
+
+    <div class="card">
+        <h2>Aprofundando o Conhecimento</h2>
+        <p>Nesta segunda parte, exploramos tags essenciais  para a interatividade (Formulàrios) e para dar um significado ainda mais rico ao conteúdo textual.</p>
+    </div>
+
+    <h3>Formulários Interativos: Coletando Dados</h3>
+
+<section id="Formularios">
+    <fieldset>
+    <div class="Card-Pessoais">
+        <h4>Informaçôes Pessoais</h4>
+        <div class="form-group">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" placeholder="Ex: Ana Silva">
+        
+    </div>
+
+      <div class="form-group">
+        <label for="Data">Data de Nascimento:</label>
+        type="number" p
+         <input type = "date"cursos id="nascimento" name="nascimento" class="form-input" laceholder="dd/mm/aaaa">
+        </div>
+
+        <div class="form-group">
+        <label for="text">Curso de Interesse (curso autocompletar):</label>
+        <input list="cursos" id="curso" name="curso" class="form-input">
+        </div>
+        
+        <legend>Preferências</legend>
+                        <label for="area">Área de Foco (com lista dropdown):</label>
+                        <select name="area" id="areaid">
+                            <option value="">Selecione uma opção</option>
+                            <option value="front">Front-End</option>
+                            <option value="back">Back-End</option>
+                            <option value="full">Full-Stack</option>
+                        </select>
+
+
+
+    <div class=" card-Preferências">
+        <label for="Foco">Área de Foco(com lista dropdown):</label>
+        <input type="text">
+        <label>
+      <input type="radio" name="Iniciante" value="valor1"> Iniciante
+    </label><br>
+    <label>
+      <input type="radio" name="opcao2" value="valor2">Intermediário
+
+      <input type="radio" name="opcao3" value="valor3">Avançado
+
+    </label><br>
+        </select>
+    </fieldset>
+<aside class="card-verde"> 
+<p>O fomulário agora combina múltiplos  elementos: <code>&lt;datalist&gt;</code> para autocompletar, e  <code>&lt;select&gt;</code> para uma lista fechada de opções</p>
+
+<p>Para escolhas, usamos  <code>&lt;input type="radio"(escolha única) e  <code>&lt;input type="checkbok"&gt;</code>&gt;</code>(múltipla escolha)</p>
+
+  <p>A tag  <code>&lt;output&gt;</code>exibe dinamicamente o valor do  <code>&lt;input type="range"&gt;</code>,criando uma experiência interativa.</p>
+
+
+  <p>Note também os atributos  <code>&lt;placeholder&gt;</code>, que exibe um texto de ajuda no campo, e  <code>&lt;required&gt;</code>,que torna seu preenchimento obrigatório</p>
+    </aside>
+
+  </section>
+
+    </div>
+ </main>
+
+</body>
+</html>

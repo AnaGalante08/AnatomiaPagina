@@ -1,0 +1,11 @@
+header{
+    header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+h1{
+    margin-left: 200px;
+}
+
+}
